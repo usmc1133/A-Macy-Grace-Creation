@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">  
+        <img class="logo" src="images/logo.png" alt="logo">        
+        <div class="navbar_p"><p>Welcome to our A Macy Grace Creation Store.</p></div> 
+        <div class="menu-btn">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="navbar_links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="custom orders.html">Custom Orders</a></li>
+            <li><a href="cart.html">Cart</a></li>      
+        </ul>
+        <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="cart-container">
+        <h1>Your Cart</h1>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+        <div class="cart-summary">
+            <p>Total Quantity: <span id="total-quantity">0</span></p>
+            <p>Total Price: $<span id="total-price">0.00</span></p>
+        </div>
+        <button class="checkout-button">Proceed to Checkout</button>
+    </div>
+    <script src="cart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
